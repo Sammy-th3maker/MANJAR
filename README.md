@@ -65,7 +65,8 @@ Option 1: Run directly
 cd manjaro-ultimate
 chmod +x manjaro-ultimate.sh
 sudo ./manjaro-ultimate.sh```
-Option 2: Install as a system package (recommended)
+
+- Option 2: Install as a system package (recommended)
 ```makepkg -si
 sudo manjaro-ultimate```
 ---
