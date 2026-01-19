@@ -68,3 +68,13 @@ screenshots/
 ├── gaming-menu.png
 ├── power-profiles.png
 └── kernel-manager.png
+
+## install
+- to install this tool u need to copy this command line and paste it in
+
+```Option 1: Run directly
+git clone https://github.com/YOURNAME/manjaro-ultimate.git
+cd manjaro-ultimate
+chmod +x manjaro-ultimate.sh
+sudo ./manjaro-ultimate.sh```
+
