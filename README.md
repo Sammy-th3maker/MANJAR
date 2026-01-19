@@ -60,9 +60,13 @@
 ### install
 - to install this tool u need to copy this command line and paste it in
 
-##Option 1: Run directly
+Option 1: Run directly
 ```git clone https://github.com/YOURNAME/manjaro-ultimate.git
 cd manjaro-ultimate
 chmod +x manjaro-ultimate.sh
 sudo ./manjaro-ultimate.sh```
+Option 2: Install as a system package (recommended)
+```makepkg -si
+sudo manjaro-ultimate```
+---
 
