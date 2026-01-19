@@ -62,14 +62,14 @@
 
 ### Option 1: Run directly
 ```
-git clone https://github.com/Sammy-th3maker/manjaro-ultimate.git
+git clone https://github.com/Sammy-th3maker/MANJAR.git
 cd manjaro-ultimate
 chmod +x manjaro-ultimate.sh
 sudo ./manjaro-ultimate.sh```
 ```
 ### Option 2: Install as a system package (recommended)
 ```
-git clone https://github.com/Sammy-th3maker/manjaro-ultimate.git
+git clone https://github.com/Sammy-th3maker/MANJAR.git
 cd manjaro-ultimate
 makepkg -si
 sudo manjaro-ultimate```
