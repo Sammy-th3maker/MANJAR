@@ -1,0 +1,21 @@
+pkgname=manjaro-ultimate
+pkgver=1.0
+pkgrel=1
+pkgdesc="Manjaro Ultimate Gaming & Repair Tool"
+arch=('any')
+license=('GPL')
+depends=(
+  'bash'
+  'pacman'
+  'cpupower'
+  'gamemode'
+  'lutris'
+  'steam'
+)
+source=('manjaro-ultimate.sh')
+sha256sums=('SKIP')
+
+package() {
+  install -Dm755 manjaro-ultimate.sh "$pkgdir/usr/bin/manjaro-ultimate"
+  install -dm755 "$pkgdir/etc/manjaro-ultimate/profiles"
+}
